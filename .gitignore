@@ -1,0 +1,38 @@
+# PlatformIO / build artifacts
+.pio/
+.pioenvs/
+.pio/build/
+.pio/libdeps/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Build outputs / firmware
+*.elf
+*.bin
+*.hex
+*.map
+
+# Logs, dumps
+*.log
+*.dump
+
+# Environment / secrets
+.env
+secrets.env
+*.secret
+*.key
+*.pem
+*.crt
+credentials.*
+private.*
+
+# Python / node caches (if present)
+__pycache__/
+venv/
+.env/
+
+# OS cruft
+.DS_Store
+Thumbs.db
